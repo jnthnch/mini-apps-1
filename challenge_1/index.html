@@ -1,2 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head class="page-header">
+        <h1>My Tic-Tac-Toe Game</h1>
+    </head>
+        
+    <style>
+        td {
+            text-align: center;
+            font-size: 50px;
+        }
+    </style>
 
 
+    <body>
+        <h2 id="x-win-tally">
+            X Win Count:
+        </h2>
+        <h2 id="o-win-tally">
+            O Win Count:
+        </h2>
+
+        <h2 id="currentPlayerHeader"></h2>
+        <table id="entire-table" style="width: 300px; height: 300px; background-color:cadetblue; border:crimson">
+            <tbody id="table-body" style="background-color: cornsilk">
+                <tr class="table-row">
+                    <td class="table-cell" id="cell-1" style="width: 100px; height: 100px; max-width: 100px; max-height: 100px;">&nbsp;</td>
+                    <td class="table-cell" id="cell-2" style="width: 100px; height: 100px; max-width: 100px; max-height: 100px;">&nbsp;</td>
+                    <td class="table-cell" id="cell-3" style="width: 100px; height: 100px; max-width: 100px; max-height: 100px;">&nbsp;</td>
+                </tr>
+                <tr class="table-row"> 
+                    <td class="table-cell" id="cell-4" style="width: 100px; height: 100px; max-width: 100px; max-height: 100px;">&nbsp;</td>
+                    <td class="table-cell" id="cell-5" style="width: 100px; height: 100px; max-width: 100px; max-height: 100px;">&nbsp;</td>
+                    <td class="table-cell" id="cell-6" style="width: 100px; height: 100px; max-width: 100px; max-height: 100px;">&nbsp;</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="table-cell" id="cell-7" style="width: 100px; height: 100px; max-width: 100px; max-height: 100px;">&nbsp;</td>
+                    <td class="table-cell" id="cell-8" style="width: 100px; height: 100px; max-width: 100px; max-height: 100px;">&nbsp;</td>
+                    <td class="table-cell" id="cell-9" style="width: 100px; height: 100px; max-width: 100px; max-height: 100px;">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="reset-game-button">
+            Reset Game
+        </button>
+    </body>
+
+
+    <script type="text/javascript" src='app.js'></script>
+
+</html>
